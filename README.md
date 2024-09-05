@@ -8,7 +8,7 @@ npm run dev
 
 \_\_\_TAREFAS GERAIS - 0,5ptos (0,25 cada)
 
-- os botoes devem ficar fixos na tela, no top "0".
+- <del> os botoes devem ficar fixos na tela, no top "0". </del>
 - todas as imagens devem estar baixadas dentro da pasta assets podendo alterar o tema do json se quiserem
 
 \_\_\_GIT - 2,0ptos (1,0 cada)

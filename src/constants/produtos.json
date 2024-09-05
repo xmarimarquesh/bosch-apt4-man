@@ -1,16 +1,37 @@
 [
   {
     "id": 1,
-    "name": "Perfume",
-    "desc": "Miguel Rousseouf",
-    "value": "100.00",
-    "image": "https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/volarium/catalog/produtos/volarium/perfume/perfume-feminino/perfume-feminino-ch-tradicional-importado-original.jpg"
+    "name": "Impala azul",
+    "desc": "Com uma fórmula de secagem rápida e um brilho radiante",
+    "value": "4.99",
+    "image": "../../src/assets/impala-azul.jpg"
   },
   {
     "id": 2,
-    "name": "Colar",
-    "desc": "Jand Karno em perolas",
-    "value": "2200.00",
-    "image": "https://cdn.awsli.com.br/600x450/1537/1537341/produto/152389745/01e29e7fcc.jpg"
+    "name": "Impala rosa",
+    "desc": "Uma tonalidade moderna que exala confiança",
+    "value": "4.99",
+    "image": "../../src/assets/impala-rosa.webp"
+  },
+  {
+    "id": 3,
+    "name": "Impala vermelho",
+    "desc": "Adicione um toque de cor ao seu visual com este esmalte vibrante",
+    "value": "4.99",
+    "image": "../../src/assets/impala-vermelho.webp"
+  },
+  {
+    "id": 4,
+    "name": "Impala rosa claro",
+    "desc": "Este esmalte oferece uma cor suave e delicada que realça a beleza natural das suas unhas",
+    "value": "4.99",
+    "image": "../../src/assets/impala-rosaclaro.webp"
+  },
+  {
+    "id": 5,
+    "name": "Impala marrom",
+    "desc": "Uma cor sofisticada que combina com qualquer ocasião",
+    "value": "4.99",
+    "image": "../../src/assets/impala-marrom.jpg"
   }
 ]
