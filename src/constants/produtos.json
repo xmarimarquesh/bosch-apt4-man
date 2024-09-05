@@ -4,34 +4,44 @@
     "name": "Impala azul",
     "desc": "Com uma fórmula de secagem rápida e um brilho radiante",
     "value": "4.99",
-    "image": "../../src/assets/impala-azul.jpg"
+    "image": "../../src/assets/impala-azul.jpg",
+    "categoria": "Beleza",
+    "status": true
   },
   {
     "id": 2,
     "name": "Impala rosa",
     "desc": "Uma tonalidade moderna que exala confiança",
     "value": "4.99",
-    "image": "../../src/assets/impala-rosa.webp"
+    "image": "../../src/assets/impala-rosa.webp",
+    "categoria": "Beleza",
+    "status": false
   },
   {
     "id": 3,
     "name": "Impala vermelho",
     "desc": "Adicione um toque de cor ao seu visual com este esmalte vibrante",
     "value": "4.99",
-    "image": "../../src/assets/impala-vermelho.webp"
+    "image": "../../src/assets/impala-vermelho.webp",
+    "categoria": "Beleza",
+    "status": true
   },
   {
     "id": 4,
     "name": "Impala rosa claro",
     "desc": "Este esmalte oferece uma cor suave e delicada que realça a beleza natural das suas unhas",
     "value": "4.99",
-    "image": "../../src/assets/impala-rosaclaro.webp"
+    "image": "../../src/assets/impala-rosaclaro.webp",
+    "categoria": "Beleza",
+    "status": false
   },
   {
     "id": 5,
     "name": "Impala marrom",
     "desc": "Uma cor sofisticada que combina com qualquer ocasião",
     "value": "4.99",
-    "image": "../../src/assets/impala-marrom.jpg"
+    "image": "../../src/assets/impala-marrom.jpg",
+    "categoria": "Beleza",
+    "status": true
   }
 ]
