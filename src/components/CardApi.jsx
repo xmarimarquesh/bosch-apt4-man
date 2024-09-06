@@ -1,4 +1,4 @@
-import style from "./Card.module.css"
+// import style from "./Card.module.css"
 
 // eslint-disable-next-line react/prop-types
 export const CardApi = ({name, desc, value, image, status}) => {

@@ -4,6 +4,11 @@ import { CardApi } from './components/CardApi'
 import produtos from './constants/produtos.json'
 import { api } from "./api/rmApi"
 import style from './App.module.css'
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+const position = [-25.4217555, -49.2727473]
+import 'leaflet/dist/leaflet.css';
+import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
+import "leaflet-defaulticon-compatibility";
 
 function App() {
   const [show, setShow] = useState("")
@@ -74,7 +79,17 @@ function App() {
         <>
       <h2>Mapa</h2>
           <div>
-              mapa aqui
+          <MapContainer center={position} zoom={13} scrollWheelZoom={false} style={{width: '100%', height: '700px'}}>
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <Marker position={position}>
+              <Popup>
+                A pretty CSS3 popup. <br /> Easily customizable.
+              </Popup>
+            </Marker>
+          </MapContainer>
           </div>
          </>
       }
