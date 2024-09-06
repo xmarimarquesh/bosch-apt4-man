@@ -9,7 +9,6 @@ function App() {
   const [data, setData] = useState([])
   const [page, setPage] = useState("")
 
-
   useEffect(() => {
     api.get(`/character/?page=${page}`).then((response) => {
       if(!response.data.results){
