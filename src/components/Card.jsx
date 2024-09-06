@@ -2,7 +2,6 @@ import style from "./Card.module.css"
 
 /* eslint-disable react/prop-types */
 export const Card = ({name, desc, value, image, status}) => {
-  console.log(status);
   return(
       <div className={style.card}>
           <h1>{name}</h1>

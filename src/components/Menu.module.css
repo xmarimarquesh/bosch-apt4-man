@@ -8,6 +8,16 @@
   position: fixed;
 }
 
+.wrapBtns a{
+  background-color: blueviolet;
+  text-decoration: none;
+  border-radius: 5px;
+  color: black;
+  padding: 4px;
+  width: 5%;
+  text-align: center;
+}
+
 .wrapPage {
   width: 100%;
   height: auto;

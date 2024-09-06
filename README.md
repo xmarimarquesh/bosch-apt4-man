@@ -35,9 +35,9 @@ npm run dev
 
 \_\_\_MAPA - 1,0pto
 
-- usando o leaftlet e o react-leaft-let, fazer um mapa com a localizacao do Senai.
+- <del> usando o leaftlet e o react-leaft-let, fazer um mapa com a localizacao do Senai. </del>
 
-- IMPORTS para debug de mapa, instalar o leaflet-defaulticon-compatibility
+- <del> IMPORTS para debug de mapa, instalar o leaflet-defaulticon-compatibility </del>
 
 import 'leaflet/dist/leaflet.css';
 
