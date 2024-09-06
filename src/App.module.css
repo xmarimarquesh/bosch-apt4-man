@@ -20,11 +20,23 @@
   background-color: rgb(47, 47, 47);
 }
 
-
 .cards{
   display: flex;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100vw;
+  gap: 20px;
+}
+
+.card{
+  background-color: rgb(36, 0, 53);
+  margin: 1%;
+  padding: 1%;
+  width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
