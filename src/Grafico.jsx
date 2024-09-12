@@ -96,49 +96,54 @@ const data = [
 function Grafico() {
   return (
     <>
-      <Menu/>
-      <div className={style.graficos}>
-      <h2>Idade DTA2</h2>
-        <LineChart
-          width={1800}
-          height={300}
-          data={data}
-          margin={{
-            top: 5,
-            right: 30,
-            left: 20,
-            bottom: 5,
-          }}
-        >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
-          <YAxis />
-          <Tooltip />
-          <Legend />
-          <Line type="monotone" dataKey="idade" stroke="#8884d8" activeDot={{ r: 8 }} />
-        </LineChart>
+  <Menu/>
+  <div className={style.graficos}>
+    <h2>Idade DTA2</h2>
+    <div className={style.chartContainer}>
+      <LineChart
+        width={800}
+        height={400}
+        data={data}
+        margin={{
+          top: 5,
+          right: 30,
+          left: 20,
+          bottom: 5,
+        }}
+      >
+        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis dataKey="name" />
+        <YAxis />
+        <Tooltip />
+        <Legend />
+        <Line type="monotone" dataKey="idade" stroke="#8884d8" activeDot={{ r: 8 }} />
+      </LineChart>
+    </div>
 
-        <h2>Altura DTA2</h2>
-        <LineChart
-          width={1800}
-          height={300}
-          data={data}
-          margin={{
-            top: 5,
-            right: 30,
-            left: 20,
-            bottom: 5,
-          }}
-        >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
-          <YAxis />
-          <Tooltip />
-          <Legend />
-          <Line type="monotone" dataKey="altura" stroke="#8884d8" activeDot={{ r: 8 }} />
-        </LineChart>
-        </div>
-    </>
+    <h2>Altura DTA2</h2>
+    <div className={style.chartContainer}>
+      <LineChart
+        width={800}
+        height={400}
+        data={data}
+        margin={{
+          top: 5,
+          right: 30,
+          left: 20,
+          bottom: 5,
+        }}
+      >
+        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis dataKey="name" />
+        <YAxis />
+        <Tooltip />
+        <Legend />
+        <Line type="monotone" dataKey="altura" stroke="#8884d8" activeDot={{ r: 8 }} />
+      </LineChart>
+    </div>
+  </div>
+</>
+
     
   )
 }

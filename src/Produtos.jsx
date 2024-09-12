@@ -11,7 +11,7 @@ function Produtos () {
                 <div className={style.cards}>
                     {produtos.map((item, index) => {
                     return(
-                        <div key={index}>
+                        <div key={index} className={style.card}>
                             <Card name={item.name} desc={item.desc} value={item.value} image={item.image} key={item.id} status={item.status}/>
                         </div>
                     )

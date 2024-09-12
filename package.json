@@ -15,6 +15,7 @@
     "leaflet-defaulticon-compatibility": "^0.1.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-draggable": "^4.4.6",
     "react-leaflet": "^4.2.1",
     "react-router-dom": "^6.26.2",
     "recharts": "^2.12.7"
