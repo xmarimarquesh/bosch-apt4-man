@@ -50,3 +50,10 @@
   align-items: center;
   justify-content: center;
 }
+
+
+.graficos{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

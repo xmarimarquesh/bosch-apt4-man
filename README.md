@@ -55,8 +55,8 @@ https://vitejs.dev/
 
 \_\_\_GRÁFICOS E REACT ROUTER DOM - 2,0ptos (1,0 e 1,0 cada)
 
-- Usando o react router dom, criar uma rota para acessar uma nova página contendo 2 gráficos de sua escolha referentes a biblioteca recharts.
-- Usando a mesma biblioteca criar os paths especificos para cada parte do projeto que esta separado por renderização condicional, conferir a documentação do react router. Siga a arquitetura do projeto para nao haverem complicações.
+- <del> Usando o react router dom, criar uma rota para acessar uma nova página contendo 2 gráficos de sua escolha referentes a biblioteca recharts. </del>
+- <del> Usando a mesma biblioteca criar os paths especificos para cada parte do projeto que esta separado por renderização condicional, conferir a documentação do react router. Siga a arquitetura do projeto para nao haverem complicações. </del>
 
 https://recharts.org/en-US/
 
