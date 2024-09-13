@@ -12,6 +12,19 @@
     justify-content: space-between;
 }
 
+.cardinho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+img{
+    border-radius: 10px;
+    width: 80%;
+}
+
 .cards{
     display: flex;
     align-items: center;
@@ -27,6 +40,8 @@
     width: 20px;
     border-radius: 100%;
     background-color: green;
+    display: flex;
+    align-self: flex-end;
 }
 
 .vermelho{
@@ -34,4 +49,13 @@
     width: 20px;
     border-radius: 100%;
     background-color: red;
+    display: flex;
+    align-self: flex-end;
+}
+
+button{
+    background-color: blueviolet;
+    color: White;
+    font-weight: bold;
+    margin-top: 5%;
 }

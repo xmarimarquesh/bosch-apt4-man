@@ -98,6 +98,7 @@ function Grafico() {
     <>
   <Menu/>
   <div className={style.graficos}>
+    <h1>Gráficos</h1>
     <h2>Idade DTA2</h2>
     <div className={style.chartContainer}>
       <LineChart

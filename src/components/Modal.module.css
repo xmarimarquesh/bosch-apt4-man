@@ -38,6 +38,14 @@
     width: 80%;
 }
 
+.BackGround h2{
+    color: rgb(0, 26, 255);
+}
+
+.divizona h2{
+    color: rgb(0, 26, 255);
+}
+
 .divizona{
     width: 100%;
     display: flex;

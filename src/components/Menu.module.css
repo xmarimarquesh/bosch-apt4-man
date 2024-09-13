@@ -1,21 +1,32 @@
 .wrapBtns {
   width: 100%;
-  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1vw;
+  gap: 2vw;
   position: fixed;
+  top: 0;
+  background-color: black;
+  padding: 15px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  z-index: 10;
 }
 
-.wrapBtns a{
+.wrapBtns a {
   background-color: blueviolet;
   text-decoration: none;
-  border-radius: 5px;
-  color: black;
-  padding: 4px;
-  width: 5%;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 15px;
   text-align: center;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.wrapBtns a:hover {
+  background-color: darkviolet;
+  transform: scale(1.05); 
 }
 
 .wrapPage {
@@ -23,12 +34,32 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  align-items: left;
   justify-content: center;
-  gap: 1vh;
-  padding: 10px;
-  background-color: rgb(47, 47, 47);
+  padding: 20px;
+  background-color: transparent;
+  margin-top: 80px;
+  color: white;
 }
+
+@media (max-width: 768px) {
+  .wrapBtns {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .wrapBtns a {
+    width: 15%;
+    padding: 12px;
+    font-size: 1.2rem;
+  }
+
+  .wrapPage {
+    margin-top: 15%;
+  }
+}
+
+
+
 
 .cards{
   display: flex;
@@ -60,8 +91,33 @@
   width: 100%;
 }
 
+.graficos h1{ margin-bottom: 3%; color: rgb(0, 26, 255);}
+
 .chart-container {
   width: 100%;
+}
+
+.titulo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: rgb(174, 0, 255);
+}
+
+.mapa{
+  width: 96%;
+  z-index: -1;
+  border-radius: 200px;
+  display: flex;
+  align-self: center;
+  padding: 2%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mapa h2{
+  margin-bottom: 2%;
+  color: rgb(174, 0, 255);
 }
 
 @media (max-width: 768px) {

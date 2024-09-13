@@ -7,7 +7,7 @@ function Produtos () {
     return(
         <>
             <Menu/>
-            <h2>Showroom de produtos</h2>
+            <h2 className={style.titulo}>Showroom de produtos</h2>
                 <div className={style.cards}>
                     {produtos.map((item, index) => {
                     return(

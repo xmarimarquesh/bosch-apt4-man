@@ -1,46 +1,55 @@
 [
   {
     "id": 1,
-    "name": "Impala azul",
-    "desc": "Com uma fórmula de secagem rápida e um brilho radiante",
-    "value": "4.99",
-    "image": "../../src/assets/impala-azul.jpg",
+    "name": "Bodysplash 1",
+    "desc": "Uma fragrância refrescante com secagem rápida, perfeita para um brilho radiante.",
+    "value": "31.99",
+    "image": "../../src/assets/produto1.webp",
     "categoria": "Beleza",
     "status": true
   },
   {
     "id": 2,
-    "name": "Impala rosa",
-    "desc": "Uma tonalidade moderna que exala confiança",
-    "value": "4.99",
-    "image": "../../src/assets/impala-rosa.webp",
+    "name": "Bodysplash 2",
+    "desc": "Um aroma moderno e vibrante que exala confiança e estilo.",
+    "value": "31.99",
+    "image": "../../src/assets/produto2.webp",
     "categoria": "Beleza",
     "status": false
   },
   {
     "id": 3,
-    "name": "Impala vermelho",
-    "desc": "Adicione um toque de cor ao seu visual com este esmalte vibrante",
-    "value": "4.99",
-    "image": "../../src/assets/impala-vermelho.webp",
+    "name": "Bodysplash 3",
+    "desc": "Fragrância energizante para uma sensação de frescor duradouro.",
+    "value": "31.99",
+    "image": "../../src/assets/produto4.jpg",
     "categoria": "Beleza",
     "status": true
   },
   {
     "id": 4,
-    "name": "Impala rosa claro",
-    "desc": "Este esmalte oferece uma cor suave e delicada que realça a beleza natural das suas unhas",
-    "value": "4.99",
-    "image": "../../src/assets/impala-rosaclaro.webp",
+    "name": "Bodysplash 4",
+    "desc": "Um toque suave de frescor para realçar sua beleza natural.",
+    "value": "31.99",
+    "image": "../../src/assets/produto5.webp",
     "categoria": "Beleza",
     "status": false
   },
   {
     "id": 5,
-    "name": "Impala marrom",
-    "desc": "Uma cor sofisticada que combina com qualquer ocasião",
-    "value": "4.99",
-    "image": "../../src/assets/impala-marrom.jpg",
+    "name": "Bodysplash 5",
+    "desc": "Fragrância sofisticada para qualquer ocasião, com um toque elegante.",
+    "value": "31.99",
+    "image": "../../src/assets/produto6.webp",
+    "categoria": "Beleza",
+    "status": true
+  },
+  {
+    "id": 6,
+    "name": "Bodysplash 6",
+    "desc": "Fragrância clássica com um aroma sutil e refinado para todos os momentos.",
+    "value": "31.99",
+    "image": "../../src/assets/produto9.webp",
     "categoria": "Beleza",
     "status": true
   }
