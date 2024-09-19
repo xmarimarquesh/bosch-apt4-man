@@ -44,15 +44,15 @@ function Api() {
                 <div className={style.cards}>
                     {data.map((item) => (
                         <div key={item.id} className={style.card}>
-                            <CardApi
-                                name={item.name}
-                                desc={item.species}
-                                value={item.gender}
-                                image={item.image}
-                                status={item.status}
-                            />
-                            <button onClick={() => setModal(item.id - 1)}>Info</button>
-                        </div>
+                                <CardApi
+                                    name={item.name}
+                                    desc={item.species}
+                                    value={item.gender}
+                                    image={item.image}
+                                    status={item.status}
+                                />
+                                <button onClick={() => setModal(item.id - 1)}>Info</button>
+                            </div>
                     ))}
                 </div>
             </div>

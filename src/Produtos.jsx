@@ -12,7 +12,7 @@ function Produtos () {
                     {produtos.map((item, index) => {
                     return(
                         <div key={index} className={style.card}>
-                            <Card name={item.name} desc={item.desc} value={item.value} image={item.image} key={item.id} status={item.status}/>
+                            <Card name={item.name} desc={item.desc} value={item.value} image={item.image} key={item.id} status={item.status} categoria={item.categoria}/>
                         </div>
                     )
                     })}
